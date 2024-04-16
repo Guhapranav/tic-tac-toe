@@ -129,7 +129,7 @@ public class TicTacToe {
                 posMark = sc.nextInt();//mark
                 sc.nextLine();
 
-                marker(playBoard, mark1, posMark);//mark is locally updating
+                marker(playBoard, mark1, posMark);//mark is locally updating we need to correct this!
 
                 display(playBoard);
                 isPlay = isWinner(playBoard);
