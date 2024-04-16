@@ -4,6 +4,7 @@ public class TicTacToe {
     public static void welcome(String[][] playBoard) {
         System.out.println("Welcome to Tic-Tac-Toe");
 
+        //Representation of the tictactoe Board
         System.out.printf("1 | 2 | 3 %n--|---|--%n" +
                 "4 | 5 | 6 %n--|---|--%n" +
                 "7 | 8 | 9 %n");
